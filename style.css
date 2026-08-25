@@ -1,13 +1,46 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+/*Paleta de colores para modo claro*/
+:root {
+    --bg-principal: #FBF8F3; /*Fondo principal*/
+    --color-texto: #232129; /*Texto principal*/
+    --color-acento: #FF4A85; /*Acentos/Botones*/
+    --bg-tarjeta: #f0e6df; /*Tarjetas/Contenedores*/
+
+}
+
+/*Paleta de colores para modo oscuro*/
+[data-theme="dark"] {
+    --bg-principal: #181416; /*Fondo principal*/
+    --color-texto: #FBF8F3; /*Texto principal*/
+    --color-acento: #FF6B9D; /*Acentos/Botones*/
+    --bg-tarjeta: #251E22; /*Tarjetas/Contenedores*/
+}
+
 html {
     width: 100%;
     height: 100%;
-    background-color: aliceblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*font-family: ;*/
     padding: 3%;
 
     /*font-size: 62.5%;
     box-sizing: border-box;*/
+}
+
+body {
+    background-color: var(--bg-principal);
+    color: var(--color-texto);
+    transition: background-color 0.3 ease, color 0.3 ease;
+    font-family: sans-serif;
+}
+
+.boton-destacado {
+    background-color: var(--color-acento);
+    color: #ffffff;
+}
+
+.tarjeta-proyecto {
+    background-color: var(--bg-tarjeta);
 }
 
 footer {
