@@ -2,46 +2,244 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Denisse Garza</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DenisseGarzaDev</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-        
 
 <body>
-    
-    <nav class="glassNav">
-        <div class="navLogo">Denisse Garza</div>
-        <div class="navLinks">
-            <button id="theme-toggle">Modo Obscuro</button>
-            <a href="">About</a>
-            <a href="./proyectos/">Projects</a>
-            <a href="./blog/index.html">Blog</a>
-            <a href="">Contact</a>
-        </div>
+    <div class="animated-border"></div>
 
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="container navbar-inner">
+            <div class="logo">Denisse Garza</div>
+            <ul class="nav-links">
+                <li class="active"><a href="#">Projects</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Engineering</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                <span class="material-symbols-outlined" id="theme-icon">dark_mode</span>
+            </button>
+        </div>
     </nav>
 
-    <section>
-        <div></div>
-    </section>
+    <!-- Contenido principal -->
+    <main>
+        <div class="container">
+            <div class="bento-grid">
 
-    
+                <!-- Hero -->
+                <div class="col-span-8 glass-card hero-card">
+                    <span class="material-symbols-outlined bg-icon">memory</span>
+                    <h1 class="hero-title">
+                        Engineer Redefining <br />
+                        <span class="subtle">Systems</span> with <br />
+                        <span class="accent">Mechatronics &amp; Java</span>
+                    </h1>
+                    <div class="tag-row">
+                        <span class="tag">Java</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">Robotics</span>
+                        <span class="tag">PLC</span>
+                    </div>
+                </div>
 
+                <!-- Foto de perfil -->
+                <div class="col-span-4 glass-card profile-card">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJYjRqIJizQDuZ6f4c76iGU9a5lff3NsezrtYwi3HGnIJg6G6mar9J9qf-quCjpO1tctoMefx-5q0-38IKUpRhZZtcq4QKzoLMIWJtDlTWzbrvlz6KChJPIqCpwRE_iCh_UKCStCfIIl8bJprRutPiwhDeVOMqUwONN6SNLbOAhPI9JgFXd4EbwnWfezJHym2aaaBw9nFrUTJysk5l-0IsNEYIqxS0hVH0ouMmjBa8Bo91ucorFlnym4Jd9LrSaL0gtPc"
+                        alt="Retrato de un ingeniero trabajando en un laboratorio de alta tecnología" />
+                </div>
+
+                <!-- Sobre mí -->
+                <div class="col-span-4 glass-card about-card">
+                    <span class="material-symbols-outlined">terminal</span>
+                    <p>
+                        Merging the physical and digital. As a Mechatronics Engineer and Full Stack Java
+                        Developer, I architect robust backend systems and precise control logic for
+                        automated environments. Based in tech hubs, building globally.
+                    </p>
+                </div>
+
+                <!-- CTA de contacto -->
+                <div class="col-span-4 cta-card">
+                    <div class="cta-top">
+                        <span class="cta-label">Ready to build?</span>
+                        <span class="material-symbols-outlined">arrow_outward</span>
+                    </div>
+                    <h3>Contact me</h3>
+                    <div class="dot-pattern"></div>
+                </div>
+
+                <!-- Columna de proyectos -->
+                <div class="col-span-4 project-stack">
+                    <div class="flip-card flip-card-mini glass-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <span class="name">AutoSort PLC</span>
+                                <span class="material-symbols-outlined">arrow_outward</span>
+                            </div>
+                            <div class="flip-card-back">
+                                <span class="stack">Siemens / Java</span>
+                                <p>Industrial sorting system bridging PLC logic with a Spring Boot dashboard.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card project-list-item">
+                        <span class="name">Micro-Kinematics</span>
+                        <span class="material-symbols-outlined">precision_manufacturing</span>
+                    </div>
+
+                    <div class="glass-card social-row">
+                        <a href="#">GITHUB</a>
+                        <a href="#">LINKEDIN</a>
+                        <a href="#">EMAIL</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Habilidades técnicas -->
+        <section>
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="glass-card skill-card">
+                    <span class="material-symbols-outlined">code</span>
+                    <span class="label">Java</span>
+                </div>
+                <div class="glass-card skill-card">
+                    <span class="material-symbols-outlined">bolt</span>
+                    <span class="label">Spring Boot</span>
+                </div>
+                <div class="glass-card skill-card">
+                    <span class="material-symbols-outlined">database</span>
+                    <span class="label">SQL</span>
+                </div>
+                <div class="glass-card skill-card">
+                    <span class="material-symbols-outlined">terminal</span>
+                    <span class="label">C++</span>
+                </div>
+                <div class="glass-card skill-card">
+                    <span class="material-symbols-outlined">smart_toy</span>
+                    <span class="label">ROS2</span>
+                </div>
+                <div class="glass-card skill-card">
+                    <span class="material-symbols-outlined">settings_input_component</span>
+                    <span class="label">PLC</span>
+                </div>
+                <div class="glass-card skill-card">
+                    <span class="material-symbols-outlined">architecture</span>
+                    <span class="label">CAD</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section>
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <div class="flip-card project-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front glass-card">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsmfs04wdbm95aLesiQLoFp7p9EfSUuXmin2K-DZ8dSfmkAPpEL7GUL6wLoVYnafB7MtW4GoZ7i2j6fHbTWaYy9Z2D8V6g0ayGS6n_g1XozUmV0m_UC0Ma1u4h1lUXm6Dh6VR6XHXej5ZsgzBr4B_NHGi2v43EWTDm1JIxDJFTslb0R2A8SG39C1Q5cPZEdICoYNEz8Bsz2KrS0wRtWN9QV96H88DrPLGVm7fxqLYjO6eUrr3Ow4EhdQ"
+                                alt="AutoSort PLC" />
+                            <div class="info">
+                                <h3>AutoSort PLC</h3>
+                                <p>Industrial sorting system bridging PLC logic with a Spring Boot dashboard.</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back glass-panel">
+                            <h3>AutoSort PLC</h3>
+                            <span class="stack">Siemens / Java</span>
+                            <a href="#"><span>View Source</span><span
+                                    class="material-symbols-outlined">arrow_outward</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card project-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front glass-card">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuArOTk8bd8jrE1NmlHZ4cTQuv7BFVCgU9WntWnSrP7iDr1z-lAPasMSY4UKa09lhnL2KI2SzqgDSDqqm5STRTOw6YPXKLjwjSGHIIgfqxJeOuSDRvN-lHUc7RvtiJbzeYS1RWrfx6risCv0ijLG0v__GgAp2slnjWP6fc7pXk49EWH7Xu-CtvWUM1kGQdT7LoO0X0Y2UmRiNSD0ag3LIoSF8wIK5nakvWtlOVxrlUR5iG_vlqfR4q6J-w"
+                                alt="Micro-Kinematics" />
+                            <div class="info">
+                                <h3>Micro-Kinematics</h3>
+                                <p>Precision robotic arm control software designed for micro-assembly tasks.</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back glass-panel">
+                            <h3>Micro-Kinematics</h3>
+                            <span class="stack">C++ / ROS2</span>
+                            <a href="#"><span>View Source</span><span
+                                    class="material-symbols-outlined">arrow_outward</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card project-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front glass-card">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTSRJnV-KhXZwCDYUaVMyeMWi-qyVhBwKi-7NorI-JYfFKHRPbeX4VQO-D66I-OAHiKZenuudsS-6LEeRH-zZrTt9JIfIcA8dEA5EFoapQxghkumJboMiodJQFGWTAgnVaGvZFPqDpTDwOl5ytB-qoUSz9WdNu-vyA5N7dfiOqNXAtpzOAvSFZld_xeT01LQe07rWx4qmQqHw611LkRoqUU08H-4eXmqLPHGNfTkv2pj7oe3Psnwmopg"
+                                alt="Neural Net Optimizer" />
+                            <div class="info">
+                                <h3>Neural Net Optimizer</h3>
+                                <p>Java-based tool for tuning hyper-parameters in industrial AI vision systems.</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back glass-panel">
+                            <h3>Neural Net Optimizer</h3>
+                            <span class="stack">Java / Python</span>
+                            <a href="#"><span>View Source</span><span
+                                    class="material-symbols-outlined">arrow_outward</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card project-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front glass-card">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQXMaM-h3_7uxFCsuIGXErwmkWdu_M7coaZHj5UDI6F-HwkYnzD2wDM2gS243GlUw8PTMbul-CeF8QjsQFz8c9pbGHoCP6y-3IdAhwcdbTfwWlh3hO9CgXmh-aEvPf8AARE3AJCFrXLqsaQFmGe-16Xj_7yhF5TXarjwS0-C7Aikku-_LMDcUcCR3UOCmR3gHr0IjDPbNQJ6SHMaodbKeF2pH312dmA5r3Z9QTgkXlSUPbSfb98HeBDA"
+                                alt="Smart Grid Controller" />
+                            <div class="info">
+                                <h3>Smart Grid Controller</h3>
+                                <p>Distributed micro-services backend for managing renewable energy flow.</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back glass-panel">
+                            <h3>Smart Grid Controller</h3>
+                            <span class="stack">Spring Boot / SQL</span>
+                            <a href="#"><span>View Source</span><span
+                                    class="material-symbols-outlined">arrow_outward</span></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
     <footer>
-        <div class="footerBottom">
-                <p>&copy; Todos los derechos reservados.</p>
+        <div class="container footer-inner">
+            <div class="footer-brand">Digital Craftsman</div>
+            <div class="footer-copy">© 2024 Digital Craftsmanship. Engineered with Java &amp; Mechatronics precision.
+            </div>
+            <div class="footer-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Documentation</a>
+                <a href="#">Source Code</a>
             </div>
         </div>
     </footer>
 
-
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
