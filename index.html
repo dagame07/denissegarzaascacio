@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DenisseGarzaDev</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -14,11 +15,12 @@
     <!-- Barra de navegación -->
     <nav class="navbar">
         <div class="container navbar-inner">
-            <div class="logo">Denisse Garza</div>
+            <div class="logo"><a href="/index.html">Denisse Garza</a></div>
             <ul class="nav-links">
-                <li class="active"><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="active"><a href="/index.html">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="./blog/index.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
                 <span class="material-symbols-outlined" id="theme-icon">dark_mode</span>
@@ -35,39 +37,40 @@
                 <div class="col-span-8 glass-card hero-card">
                     <span class="material-symbols-outlined bg-icon">memory</span>
                     <h1 class="hero-title">
-                        Engineer Redefining <br />
-                        <span class="subtle">Systems</span> with <br />
-                        <span class="accent">Mechatronics &amp; Java</span>
+                        Mechatronics Engineer<br />
+                        <span class="subtle">&amp; Java</span> Full-Stack <br />
+                        <span class="accent">Developer Jr.</span>
                     </h1>
                     <div class="tag-row">
-                        <span class="tag">Java</span>
-                        <span class="tag">Spring Boot</span>
-                        <span class="tag">Robotics</span>
-                        <span class="tag">PLC</span>
+                        <a href="/cv/Denisse Azucena Garza Ascacio  (2).pdf" download="CV_Denisse_Garza"><span class="tag">Curriculum Vitae</span></a>
+                        <!--<span class="tag">Java</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">Git</span>-->
                     </div>
                 </div>
 
                 <!-- Foto de perfil -->
                 <div class="col-span-4 glass-card profile-card">
-                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJYjRqIJizQDuZ6f4c76iGU9a5lff3NsezrtYwi3HGnIJg6G6mar9J9qf-quCjpO1tctoMefx-5q0-38IKUpRhZZtcq4QKzoLMIWJtDlTWzbrvlz6KChJPIqCpwRE_iCh_UKCStCfIIl8bJprRutPiwhDeVOMqUwONN6SNLbOAhPI9JgFXd4EbwnWfezJHym2aaaBw9nFrUTJysk5l-0IsNEYIqxS0hVH0ouMmjBa8Bo91ucorFlnym4Jd9LrSaL0gtPc"
-                        alt="Retrato de un ingeniero trabajando en un laboratorio de alta tecnología" />
+                    <img src="/img/denisseGarza.jpg"
+                        alt="Retrato Denise Garza" />
                 </div>
 
                 <!-- Sobre mí -->
                 <div class="col-span-4 glass-card about-card">
                     <span class="material-symbols-outlined">terminal</span>
                     <p>
-                        Merging the physical and digital. As a Mechatronics Engineer and Full Stack Java
-                        Developer, I architect robust backend systems and precise control logic for
-                        automated environments. Based in tech hubs, building globally.
+                        Hello, I’m Denisse Garza, from Nuevo León, Mx. Welcome to my digital portfolio.
+                        I love learning, so I constantly set new challenges for myself.
+                        You can contact me via email. Find it in the contact section!
                     </p>
                 </div>
 
                 <!-- CTA de contacto -->
-                <div class="col-span-4 cta-card">
+                <div id="contact" class="col-span-4 cta-card">
                     <div class="cta-top">
-                        <span class="cta-label">Ready to build?</span>
-                        <span class="material-symbols-outlined">arrow_outward</span>
+                        <span class="cta-label">Want to know more about me?</span>
+                        <a  href="mailto: denissegarzaascacio@gmail.com"><span class="material-symbols-outlined">arrow_outward</span></a>
                     </div>
                     <h3>Contact me</h3>
                     <div class="dot-pattern"></div>
@@ -78,25 +81,28 @@
                     <div class="flip-card flip-card-mini glass-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <span class="name">AutoSort PLC</span>
+                                <span class="name">Sport Store</span>
                                 <span class="material-symbols-outlined">arrow_outward</span>
                             </div>
                             <div class="flip-card-back">
-                                <span class="stack">Siemens / Java</span>
-                                <p>Industrial sorting system bridging PLC logic with a Spring Boot dashboard.</p>
+                                <span class="stack">HTML / CSS / JavaScript</span>
+                                <p>View the outcome of my first hackathon!</p>
+                                <a href="https://github.com/dagame07/TiendaDeportiva"><span>View Repository</span><span
+                                    class="material-symbols-outlined">arrow_outward</span></a>
                             </div>
                         </div>
                     </div>
-
+                    <!--
                     <div class="glass-card project-list-item">
                         <span class="name">Micro-Kinematics</span>
                         <span class="material-symbols-outlined">precision_manufacturing</span>
-                    </div>
+                    </div>-->
 
+                    <!--Redes Contacto-->
                     <div class="glass-card social-row">
-                        <a href="#">GITHUB</a>
-                        <a href="#">LINKEDIN</a>
-                        <a href="#">EMAIL</a>
+                        <a href="https://github.com/dagame07">GITHUB</a>
+                        <a href="https://www.linkedin.com/in/denissegarzas/">LINKEDIN</a>
+                        <!--<a href="mailto: denissegarzaascacio@gmail.com">EMAIL</a>-->
                     </div>
                 </div>
 
@@ -105,115 +111,141 @@
 
         <!-- Habilidades técnicas -->
         <section>
-            <h2 class="section-title">Habilidades Técnicas</h2>
+            <h2 class="section-title">Technical Skills</h2> <!-- Habilidades Técnicas-->
             <div class="skills-grid">
                 <div class="glass-card skill-card">
+                    <!--<i class="fa-brands fa-java"></i>-->
                     <span class="material-symbols-outlined">code</span>
                     <span class="label">Java</span>
                 </div>
                 <div class="glass-card skill-card">
+                    <!--<i class="fa-brands fa-js"></i>-->
+                    <span class="material-symbols-outlined">code</span>
+                    <span class="label">JavaScript</span>
+                </div>
+                <div class="glass-card skill-card">
+                    <!--<i class="fa-brands fa-html5"></i>-->
+                    <span class="material-symbols-outlined">code</span>
+                    <span class="label">HTML</span>
+                </div>
+                <div class="glass-card skill-card">
+                    <!--<i class="fa-brands fa-css3-alt"></i>-->
+                    <span class="material-symbols-outlined">code</span>
+                    <span class="label">CSS</span>
+                </div>
+                <div class="glass-card skill-card">
+                    <!--<i class="fa-brands fa-bootstrap"></i>-->
                     <span class="material-symbols-outlined">bolt</span>
-                    <span class="label">Spring Boot</span>
+                    <span class="label">Bootstrap</span>
                 </div>
-                <div class="glass-card skill-card">
-                    <span class="material-symbols-outlined">database</span>
-                    <span class="label">SQL</span>
-                </div>
-                <div class="glass-card skill-card">
+                <!--<div class="glass-card skill-card">
                     <span class="material-symbols-outlined">terminal</span>
                     <span class="label">C++</span>
+                </div>-->
+                <div class="glass-card skill-card">
+                    <!--<i class="fa-brands fa-node-js"></i>-->
+                    <span class="material-symbols-outlined">terminal</span>
+                    <span class="label">Node.JS</span>
                 </div>
                 <div class="glass-card skill-card">
-                    <span class="material-symbols-outlined">smart_toy</span>
-                    <span class="label">ROS2</span>
+                    <!--<i class="fa-brands fa-git-alt"></i> -->
+                    <span class="material-symbols-outlined">conversion_path</span>
+                    <span class="label">Git</span>
                 </div>
                 <div class="glass-card skill-card">
-                    <span class="material-symbols-outlined">settings_input_component</span>
-                    <span class="label">PLC</span>
+                    <!--<i class="fa-brands fa-github"></i>-->
+                    <span class="material-symbols-outlined">conversion_path</span>
+                    <span class="label">GitHub</span>
                 </div>
-                <div class="glass-card skill-card">
-                    <span class="material-symbols-outlined">architecture</span>
-                    <span class="label">CAD</span>
-                </div>
+                <!--<div class="glass-card skill-card">
+                    <span class="material-symbols-outlined">database</span>
+                    <span class="label">SQL</span>
+                </div>-->
             </div>
         </section>
 
         <!-- Proyectos -->
-        <section>
+        <section id="projects">
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
 
+                <!--First project-->
                 <div class="flip-card project-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front glass-card">
-                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsmfs04wdbm95aLesiQLoFp7p9EfSUuXmin2K-DZ8dSfmkAPpEL7GUL6wLoVYnafB7MtW4GoZ7i2j6fHbTWaYy9Z2D8V6g0ayGS6n_g1XozUmV0m_UC0Ma1u4h1lUXm6Dh6VR6XHXej5ZsgzBr4B_NHGi2v43EWTDm1JIxDJFTslb0R2A8SG39C1Q5cPZEdICoYNEz8Bsz2KrS0wRtWN9QV96H88DrPLGVm7fxqLYjO6eUrr3Ow4EhdQ"
-                                alt="AutoSort PLC" />
+                            <img src="/img/PalaAsada.png"
+                                alt="Pala Asada preview" />
                             <div class="info">
-                                <h3>AutoSort PLC</h3>
-                                <p>Industrial sorting system bridging PLC logic with a Spring Boot dashboard.</p>
+                                <h3>Pa'la asada</h3>
+                                <p>E-commerce project, working with a multidisciplinary team.</p>
                             </div>
                         </div>
                         <div class="flip-card-back glass-panel">
-                            <h3>AutoSort PLC</h3>
-                            <span class="stack">Siemens / Java</span>
-                            <a href="#"><span>View Source</span><span
+                            <h3>Pa'la asada</h3>
+                            <span class="stack">HTML / CSS / JavaScript</span>
+                            <a href="https://github.com/AllStarproyect/Pa-lasada"><span>View Repository</span><span
                                     class="material-symbols-outlined">arrow_outward</span></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="flip-card project-card">
+                <!--Second project-->
+                <div id="primerHackathon" class="flip-card project-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front glass-card">
-                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuArOTk8bd8jrE1NmlHZ4cTQuv7BFVCgU9WntWnSrP7iDr1z-lAPasMSY4UKa09lhnL2KI2SzqgDSDqqm5STRTOw6YPXKLjwjSGHIIgfqxJeOuSDRvN-lHUc7RvtiJbzeYS1RWrfx6risCv0ijLG0v__GgAp2slnjWP6fc7pXk49EWH7Xu-CtvWUM1kGQdT7LoO0X0Y2UmRiNSD0ag3LIoSF8wIK5nakvWtlOVxrlUR5iG_vlqfR4q6J-w"
-                                alt="Micro-Kinematics" />
+                            <img src="/img/SportsStore.png"
+                                alt="Sport Store preview" />
                             <div class="info">
-                                <h3>Micro-Kinematics</h3>
-                                <p>Precision robotic arm control software designed for micro-assembly tasks.</p>
+                                <h3>Sports Store</h3>
+                                <p>As the result of an intense 6-hour hackathon, we developed a landing page as a three-person team.</p>
                             </div>
                         </div>
                         <div class="flip-card-back glass-panel">
-                            <h3>Micro-Kinematics</h3>
-                            <span class="stack">C++ / ROS2</span>
-                            <a href="#"><span>View Source</span><span
+                            <h3>Sports Store</h3>
+                            <span class="stack">CSS / HTML / JavaScript</span>
+                            <a href="https://github.com/dagame07/TiendaDeportiva"><span>View Repository</span><span
                                     class="material-symbols-outlined">arrow_outward</span></a>
                         </div>
                     </div>
                 </div>
 
+                <!--Third project-->
                 <div class="flip-card project-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front glass-card">
-                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTSRJnV-KhXZwCDYUaVMyeMWi-qyVhBwKi-7NorI-JYfFKHRPbeX4VQO-D66I-OAHiKZenuudsS-6LEeRH-zZrTt9JIfIcA8dEA5EFoapQxghkumJboMiodJQFGWTAgnVaGvZFPqDpTDwOl5ytB-qoUSz9WdNu-vyA5N7dfiOqNXAtpzOAvSFZld_xeT01LQe07rWx4qmQqHw611LkRoqUU08H-4eXmqLPHGNfTkv2pj7oe3Psnwmopg"
-                                alt="Neural Net Optimizer" />
+                            <img src="/img/temperatureProject.png"
+                                alt="Temperature Calculator" />
                             <div class="info">
-                                <h3>Neural Net Optimizer</h3>
-                                <p>Java-based tool for tuning hyper-parameters in industrial AI vision systems.</p>
+                                <h3>Temperature Calculator</h3>
+                                <p>Calculator that converts degrees Celsius to Fahrenheit and Kelvin.</p>
                             </div>
                         </div>
                         <div class="flip-card-back glass-panel">
-                            <h3>Neural Net Optimizer</h3>
-                            <span class="stack">Java / Python</span>
-                            <a href="#"><span>View Source</span><span
+                            <h3>Temperature Calculator</h3>
+                            <span class="stack">CSS / JavaScript / HTML</span>
+                            <a href="https://github.com/dagame07/Conversion_de_Temperatura"><span>View Repository</span><span
                                     class="material-symbols-outlined">arrow_outward</span></a>
                         </div>
                     </div>
                 </div>
 
+                <!--Four project-->
                 <div class="flip-card project-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front glass-card">
-                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQXMaM-h3_7uxFCsuIGXErwmkWdu_M7coaZHj5UDI6F-HwkYnzD2wDM2gS243GlUw8PTMbul-CeF8QjsQFz8c9pbGHoCP6y-3IdAhwcdbTfwWlh3hO9CgXmh-aEvPf8AARE3AJCFrXLqsaQFmGe-16Xj_7yhF5TXarjwS0-C7Aikku-_LMDcUcCR3UOCmR3gHr0IjDPbNQJ6SHMaodbKeF2pH312dmA5r3Z9QTgkXlSUPbSfb98HeBDA"
-                                alt="Smart Grid Controller" />
+                            <img src="/img/pokeapiPrototipe.png"
+                                alt="PokeApi preview" />
                             <div class="info">
-                                <h3>Smart Grid Controller</h3>
-                                <p>Distributed micro-services backend for managing renewable energy flow.</p>
+                                <h3>PokeApi project</h3>
+                                <p>A preview of a project currently under development. 
+                                    By using the PokeAPI and AI tools, the aim is to optimize the programming
+                                    process and reduce development time. </p>
                             </div>
                         </div>
                         <div class="flip-card-back glass-panel">
-                            <h3>Smart Grid Controller</h3>
-                            <span class="stack">Spring Boot / SQL</span>
-                            <a href="#"><span>View Source</span><span
+                            <h3>PokeApi project</h3>
+                            <span class="stack">JavaScript / CSS / HTML</span>
+                            <a href="https://github.com/dagame07/Pokedex_Challenge"><span>View Repository</span><span
                                     class="material-symbols-outlined">arrow_outward</span></a>
                         </div>
                     </div>
@@ -230,11 +262,11 @@
             <div class="footer-copy">© 2026 Denisse Garza. Engineered with Java &amp; Mechatronics precision.
             </div>
             <div class="footer-links">
-                <a href="#">GitHub</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Blog</a>
-                <a href="#">Curriculum Vitae</a>
-                <a href="#">Source Code</a>
+                <a href="https://github.com/dagame07">GitHub</a>
+                <a href="https://www.linkedin.com/in/denissegarzas/">LinkedIn</a>
+                <a href="./blog/index.html">Blog</a>
+                <a href="/cv/Denisse Azucena Garza Ascacio  (2).pdf" download="CV_Denisse_Garza">Curriculum Vitae</a>
+                <a href="https://github.com/dagame07/denissegarzaascacio">Source Code</a>
             </div>
         </div>
     </footer>

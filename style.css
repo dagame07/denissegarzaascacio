@@ -188,7 +188,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
 }
 
 .logo {
@@ -259,8 +259,8 @@ a {
 /* ---------- Contenido principal / Bento grid ---------- */
 main {
     flex-grow: 1;
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
 }
 
 .bento-grid {
@@ -683,6 +683,8 @@ section {
     letter-spacing: 0.1em;
     font-weight: 600;
 }
+
+
 
 .projects-grid {
     display: grid;
